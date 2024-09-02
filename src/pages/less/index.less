@@ -1,0 +1,387 @@
+// 一键购币
+.pur-back {
+  width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 16vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  
+}
+
+.pur-content {
+  
+  .pur-text {
+    text-align: left;
+    padding-right: 27px;
+    min-width: 210px;
+    .pur-title {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      letter-spacing:2px
+    }
+    
+    .pur-reference {
+      color: #a5c5e8;
+      font-size: 14px;
+      margin-bottom: 10px;
+
+    }
+    
+  }
+
+  .pur-input {
+    .elInput {
+      border: none;
+      height: 48px;
+      margin-bottom: 40px;
+      .el_img{
+        vertical-align: middle;
+      }
+      .el_span {
+        color: #333a4f;
+        font-size: 16px;
+        margin-left: 10px;
+        vertical-align: sub;
+      }
+
+    }
+
+    .pur_button {
+      display: block;
+      width: 184px;
+      height: 48px;
+      background-color: #dc2a69;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
+
+.elInput /deep/ .el-input__inner {
+  color: #333;
+  background-color: #fff !important;
+}
+
+// 一键购币
+.banner-announce {
+  width: 90%;
+  max-width: 1180px;
+  margin: 40px auto 30px;
+  position: relative;
+
+  .banner-announce-title {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #011046;
+
+    img {
+      width: 25px;
+      margin-right: 12px;
+      vertical-align: middle;
+
+    }
+
+    span {
+      vertical-align: middle;
+    }
+  }
+
+  ul {
+    display: flex;
+    width: 85%;
+    overflow: hidden;
+    list-style: none;
+    padding: 0 35px 0 0;
+    height: 30px;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, .5);
+
+    li {
+      min-width: 21%;
+      display: flex;
+      flex: auto;
+      margin: 0 auto;
+      align-items: center;
+
+      a {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        display: block;
+        padding: 0 20px;
+        color: #343b4c;
+      }
+    }
+  }
+
+  .banner-announce-more {
+    position: absolute;
+    right: 0;
+    top: 5px;
+
+    a {
+      color: #4e8dd4;
+    }
+
+    &>::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 50%;
+      right: -10px;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      border-top: 4px solid transparent;
+      border-left: 4px solid #9abade;
+      border-bottom: 4px solid transparent;
+    }
+  }
+}
+
+.quote{
+  width: 90%;
+  margin: 24px auto;
+  max-width: 1180px;
+  .item{
+    border-radius: 5px;
+    width: 24%;
+    height: 150px;
+    background-color: #ededed;
+    background-size: 100% 100%;
+    margin-right: 1%;
+    &:nth-of-type(1){
+      background: url('./../../assets/img/coin_bg1.png') no-repeat center  center;
+    }
+    &:nth-of-type(2){
+      background: url('./../../assets/img/coin_bg2.png') no-repeat center  center;
+      
+    }
+    &:nth-of-type(3){
+      background: url('./../../assets/img/coin_bg3.png') no-repeat center  center;
+      
+    }
+    &:nth-of-type(4){
+      background: url('./../../assets/img/coin_bg4.png') no-repeat center  center;
+     
+    }
+    .btn_green{
+      width: 90px;
+      height: 30px;
+      border-radius: 5px;
+      background: #4cc095;
+      line-height: 30px;
+      text-align: center;
+    }
+    .green{
+     color: #4cc095;
+    }
+
+    .btn_red{
+      width: 90px;
+      height: 30px;
+      border-radius: 5px;
+      background: #ff4767;
+      line-height: 30px;
+      text-align: center;
+    }
+    .red{
+     color: #ff4767;
+    }
+
+    .tr{
+      color: #abadbc;
+    }
+  }
+
+
+}
+
+
+
+.layout_content {
+  width: 90%;
+  margin: 24px auto;
+  max-width: 1180px;
+
+  .card_body {
+    margin: 0 0 15px;
+    padding: 15px 17px;
+    border: 1px solid #c8defb87;
+    background: #fff;
+    box-sizing: content-box;
+
+    .card_body_t span {
+      font-size: 14px;
+      color: #343b4c;
+    }
+
+    .card_body_t em {
+      font-size: 12px;
+      color: #fff;
+      background: #ff4767;
+      padding: 2px 10px;
+      float: right;
+    }
+
+    .card_body_b {
+      margin-top: 12px;
+
+      span {
+        font-size: 24px;
+        font-weight: 700;
+        color: #00c39b;
+      }
+
+      em {
+        float: right;
+        color: #758696;
+        font-size: 12px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .tab-box {
+    min-height: 400px;
+    margin-top: 20px;
+    border: 1px solid #c8defb;
+    border-bottom: none;
+
+    .tab_box_t {
+      // height: 50px;
+      position: relative;
+      // background: rgba(170, 208, 255, .2);
+
+      li {
+        float: left;
+        line-height: 45px;
+        color: #304d87;
+        font-size: 16px;
+        border-right: 1px solid #c8defb;
+        padding: 0 30px;
+        height: 100%;
+      
+        cursor: pointer;
+
+        img {
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+
+          span {
+            vertical-align: middle;
+            margin-left: 5px;
+          }
+        }
+      }
+
+      .active {
+        background: #fff;
+        color: #17a7f3;
+        border-bottom: 1px solid #fff;
+      }
+    }
+
+    .tab_box_b {
+      
+      li {
+        display: flex;
+        align-items: center;
+        padding: 0 36px;
+        font-size: 13px;
+        text-align: left;
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid #c8defb;
+
+        p {
+          // flex: 1;
+          width: 17%;
+          margin-bottom: 0;
+
+          em {
+            font-size: 15px;
+            margin-right: 4px;
+          }
+        }
+      }
+
+      .tab_box_b_t {
+        color: #304d87;
+        height: 38px;
+        line-height: 38px;
+      background: rgba(170, 208, 255, .2);
+        
+      }
+    }
+
+    .tab_box_r {
+      margin-top: -1px;
+      height: 1px;
+      background-color: #c8defb;
+    }
+  }
+}
+
+// 下载推广
+.warpInline {
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 19%;
+  height: 150px;
+
+  .warp_div {
+    .client_a {
+      color: #aaa;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      margin-top: 24px;
+
+      .client_i img {
+        height: 24px;
+        margin-right: 10px;
+        margin-top: 4px;
+      }
+
+      .new_img {
+        display: none;
+      }
+
+    }
+
+    .client_a:hover {
+      color: #fff;
+      transition: color .1s;
+    }
+
+    .client_a:hover .new_img {
+      display: block;
+
+    }
+
+    .client_a:hover .low_img {
+      display: none;
+
+    }
+  }
+
+  .qr_div {
+    min-width: 150px;
+    min-height: 150px;
+    margin-left: 40px;
+    z-index: 1;
+    background: #fff;
+  }
+}

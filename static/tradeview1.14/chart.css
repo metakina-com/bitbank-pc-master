@@ -1,0 +1,48 @@
+.group-wWM3zP_M-,
+.button-2ioYhFEY-.isInteractive-20uLObIc-.isOpened-p-Ume5l9-,
+.button-13wlLwhJ-.isOpened-1939ai3F-,
+.menuWrap-1gEtmoET-,
+.item-2xPVYue0-,
+.tv-dialog,
+._tv-dialog,
+.chart-page,
+.layout__area--left,
+.layout__area--top,
+.container-2BvS3Fpg-,
+.container-2BvS3Fpg- .inner-3YzQuyJx-
+{
+    background-color: #000;
+}
+
+.item-2xPVYue0-.isActive-2j-GhQs_-, .feature-no-touch .item-2xPVYue0-.isActive-2j-GhQs_-:hover
+{
+    background-color:#ebf7fc;
+    color: #4c525e;
+}
+.a,
+.feature-no-touch .button-2ioYhFEY-.isInteractive-20uLObIc-:hover,
+.feature-no-touch .button-13wlLwhJ-:hover
+{
+    color:#fff;
+
+}
+.item-2xPVYue0-,
+.wrap-18oKCBRc-,
+.button-2ioYhFEY-{
+    cursor: pointer;
+}
+
+.fill-2axUON87-{
+    flex:0;
+}
+
+.separator-25lkUpN--,
+.toggleButton-13QgefpG- /*-绘画工具自带按钮-*/
+{
+    display: none;
+}
+
+.button-2ioYhFEY-.isInteractive-20uLObIc-,
+.button-2ioYhFEY-.isInteractive-20uLObIc-.isActive-22S-lGpa-{
+    color: #4c525e;
+}

@@ -1,0 +1,750 @@
+body {
+  font-size: 16px;
+}
+$bg_block_t:#062853;
+
+$red:#ff4767;
+$green:#4cc095;
+
+
+
+.align_center {
+  align-items: center;
+}
+.auto_center {
+  width: 1200px;
+  margin: 0 auto;
+}
+.v-left {
+  text-align: left
+}
+
+.flex{
+  display: flex;
+}
+.flex_middle {
+  align-items: center
+}
+.flex1{
+  flex:1
+}
+.flex_center{
+  justify-items: center;
+}
+.bet{
+  justify-content: space-between;
+}
+.flex_around{
+  justify-content: space-around;
+}
+.flex_right{
+  justify-content: flex-end;
+}
+.jut_center{
+justify-content: center;
+}
+.flex_end{
+  align-items: flex-end;
+}
+.align_end{
+  align-items: flex-end;
+}
+.v-right {
+  text-align: right
+}
+
+.v-center {
+  text-align: center
+}
+.v_re{
+ position: relative;
+}
+.v_ab{
+  position: absolute;
+}
+
+.auto {
+  margin: 0 auto;
+}
+
+.no-border {
+  border: none
+}
+
+.middle {
+  vertical-align: middle
+}
+
+.sub {
+  vertical-align: sub
+}
+
+// 字体
+@for $i from 4 through 50 {
+  .size#{$i} {
+    font-size: 1px * $i;
+  }
+}
+
+// 高/行高/最小高
+@for $i from 1 through 800 {
+  .hei#{$i} {
+    height: 1px * $i;
+  }
+  .linehei#{$i} {
+    height: 1px * $i;
+  }
+
+  .min-hei#{$i} {
+    min-height: 1px * $i;
+  }
+
+  .line#{$i} {
+    line-height: 1px * $i;
+  }
+
+  .wid#{$i} {
+    width: 1px * $i;
+  }
+  .wid_#{$i} {
+    width: $i * 1%;
+  }
+  .min-wid#{$i} {
+    min-width: 1px * $i;
+  }
+}
+
+.heiall {
+  height: 100%
+}
+
+.widall {
+  width: 100%
+}
+
+.wid97 {
+  width: 97%;
+}
+
+.width88 {
+  width: 88px
+}
+
+.width1200 {
+  width: 1200px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute
+}
+
+.fixed {
+  position: fixed
+}
+.c000{
+  color: #000;
+}
+
+.c333 {
+  color: #333;
+}
+.c606060{
+  color: #606060
+}
+.ca3b4cc{
+  color: #a3b4cc
+}
+.c959ca6{
+  color: #959ca6
+}
+.c_fff {
+  color: #fff
+}
+.c252525{
+  color: #252525;
+}
+.cceb46f{
+  color: #ceb46f
+}
+.c666 {
+  color: #666;
+}
+
+.c999 {
+  color: #999
+}
+
+.c9f {
+  color: #9f9f9f
+}
+
+.c525b66 {
+  color: #525b66
+}
+
+.c808080 {
+  color: #808080
+}
+
+.c14171a {
+  color: #14171a
+}
+
+.c99aabf {
+  color: #99aabf
+}
+
+.c4d4d4d {
+  color: #4d4d4d
+}
+
+.c357ce1 {
+  color: #357ce1
+}
+.c002FA7{
+  color: #002FA7
+}
+.blue {
+  color: #357ce1;
+}
+.blue1 {
+  color: #b1efff;
+}
+.c00aaee{
+  color: #00aaee
+}
+
+.c00e5c7 {
+  color: #00e5c7
+}
+
+.cff0042 {
+  color: #ff0042;
+}
+
+.c1afa29 {
+  color: #1afa29;
+}
+
+.c7a98f7 {
+  color: #7a98f7
+}
+.c7a8ab0{
+  color: #7a8ab0;
+}
+.c273e57{
+  color: #273e57
+}
+.c10202f{
+  color: #10202f
+}
+.bold {
+  font-weight: bold
+}
+.bold300{
+  font-weight: 300;
+}
+.bold400{
+  font-weight: 400;
+}
+.font1,.bold500{
+  font-weight: 500;
+}
+.fontweight700{
+  font-weight: 700
+}
+.fontweight600{
+  font-weight: 600
+}
+
+
+.red {
+  color: #d74e5a
+}
+.red-bg{
+  background-color:#d74e5a!important ;
+  color: #fff!important;
+}
+
+.green {
+  color: #00e6c3
+}
+.green-bg{
+  background-color:#0ca678!important ;
+  color: #fff!important;
+}
+.c00a2ff {
+  color: #00a2ff
+}
+
+.c00bfa6{
+  color: #00bfa6
+}
+.cb1efff {
+  color: #b1efff
+}
+
+.ce6e6e6 {
+  color: #e6e6e6
+}
+.ce1e1e1{
+  color: #e1e1e1;
+}
+.c00f6ff {
+  color: #00f6ff
+}
+
+.ca6a6a6 {
+  color: #a6a6a6;
+}
+.c515a6e{
+  color: #515a6e
+}
+.c5c7699{
+  color: #5c7699
+}
+.bg_trading_top {
+  background: #062853
+}
+
+.c8fb6cc {
+  color: #8fb6cc
+}
+.c50b397{
+  color: #50B397
+}
+.ccc5a6b{
+  color: #cc5a6b
+}
+.c688199{
+  color: #688199
+}
+.ce9aa970{
+  color: #e9a970;
+}
+// 背景色
+.bg_red {
+  background: $red
+}
+
+.bg_green {
+  background: $green
+}
+
+.bg-blue {
+  background: #06a8f4;
+}
+
+.bg-fff,.bg_fff {
+  background: #fff
+}
+
+.bg-a6a6a6 {
+  background: #a6a6a6
+}
+
+.bg-f0f0f0 {
+  background: #f0f0f0
+}
+
+.bg-051325 {
+  background: #051325
+}
+
+.bg-357ce1 {
+  background: #357ce1
+}
+
+.bg-051933 {
+  background: #051933
+}
+.bg-e5e5e5{
+  background: #e5e5e5
+}
+
+.bg-ededed {
+  background: #ededed
+}
+
+.bg-f9f7fd {
+  background: #f9f7fd
+}
+
+.bg-f2f4ff {
+  background: #f2f4ff
+}
+.bg-f2f2f2{
+  background: #f2f2f2
+}
+
+.bg-f2f3f8 {
+  background: #f2f3f8
+}
+.bg-f7f8ff{
+  background: #f7f8ff
+}
+.bg-50b397{
+  background: #50b397
+}
+.bg-cc5a6b{
+  background: #cc5a6b
+}
+
+.poppercss {
+  background: #e5f1ff !important;
+  color: #333 !important;
+}
+
+.el-tooltip__popper[x-placement^=top] .popper__arrow:after {
+  border-top-color: #e5f1ff;
+}
+
+.el-tooltip__popper[x-placement^=top] .popper__arrow {
+  border-top-color: #e5f1ff;
+}
+
+// 内间距
+@for $i from 1 through 700 {
+  .pad-#{$i} {
+    padding: 1px * $i;
+  }
+
+  .pad-l-#{$i} {
+    padding-left: 1px * $i;
+  }
+
+  .pad-r-#{$i} {
+    padding-right: 1px * $i;
+  }
+
+  .pad-l-r-#{$i} {
+    padding-left: 1px * $i;
+    padding-right: 1px * $i;
+  }
+
+  .pad-t-#{$i} {
+    padding-top: 1px * $i;
+  }
+
+  .pad-b-#{$i} {
+    padding-bottom: 1px * $i;
+  }
+
+  .pad-t-b-#{$i} {
+    padding-top: 1px * $i;
+    padding-bottom: 1px * $i;
+  }
+
+}
+
+
+// 外间距
+@for $i from 0 through 700 {
+
+  .zindex-#{$i} {
+    left: 1px * $i;
+  }
+  .radius#{$i} {
+    left: 1px * $i;
+  }
+
+
+  .mar-#{$i} {
+    margin: 1px * $i;
+  }
+
+  .mar-l-#{$i} {
+    margin-left: 1px * $i;
+  }
+
+  .mar-r-#{$i} {
+    margin-right: 1px * $i;
+  }
+
+  .mar-l-r-#{$i} {
+    margin-left: 1px * $i;
+    margin-right: 1px * $i;
+  }
+
+  .mar-t-#{$i} {
+    margin-top: 1px * $i;
+  }
+
+  .mar-b-#{$i} {
+    margin-bottom: 1px * $i;
+  }
+
+  .mar-t-b-#{$i} {
+    margin-top: 1px * $i;
+    margin-bottom: 1px * $i;
+  }
+  .radius#{$i} {
+    border-radius: 1px * $i;
+  }
+
+  // 定位
+
+
+  .top-#{$i} {
+    top: 1px * $i;
+  }
+
+  .bottom-#{$i} {
+    bottom: 1px * $i;
+  }
+
+  .right-#{$i} {
+    right: 1px * $i;
+  }
+
+  .left-#{$i} {
+    left: 1px * $i;
+  }
+
+
+
+
+}
+
+
+
+
+//边框
+$border: #b9e6fa;
+
+.bor-b-1-blue {
+  border-bottom: 1px solid $border;
+}
+
+$gray: #e7eaec;
+
+.bor-b-1-gray {
+  border-bottom: 1px solid $gray;
+}
+
+.bor-b {
+  border-bottom: 1px solid #2d4349
+}
+.bor-b-051325{
+  border-bottom: 1px solid #051325;
+}
+
+.bor-r {
+  border-right: 1px solid #f4f4f4;
+}
+.bor-r-e6e6e6{
+  border-right: 1px solid #e6e6e6
+}
+//个人中心 主框架
+.personal-main {
+  height: 1980px;
+  background: #f2f3f8;
+
+  // 分割线
+  .fgx {
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  // 分割阴影
+  .fgyy {
+    box-shadow: #f0f0f0 0px 2px 10px;
+  }
+
+  .bkx {
+    border-left: 1px solid #333;
+    padding: 5px 7.5px;
+  }
+
+  .row-bg {
+    background-color: #f9fafc;
+  }
+
+  //主页面
+  .homepage {
+    width: 1200px;
+    margin: 0 auto;
+    height: 1375px;
+    position: relative;
+    top: 85px;
+
+    .el-row {
+      margin-bottom: 15px;
+    }
+
+    .grid-content {
+      height: 60px;
+      line-height: 60px;
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    //输入框
+    .inputbox {
+      border: 1px solid #c1c1c1;
+      border-radius: 4px;
+      height: 50px;
+      line-height: 50px;
+      justify-content: space-between;
+
+      .inputcss {
+        border: none;
+        background: #f9fafc;
+        font-size: 18px;
+        width: 100%;
+        border-radius: 4px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.input_no {
+  border: none;
+  background: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.login_check {
+  text-align: left;
+  height: 230px;
+}
+
+.login_check .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+// 滚动条默认样式
+
+.scroll_bar {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.scroll_bar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll_bar::-webkit-scrollbar-track {
+  background-color: #14325a;
+  border-radius: 5px;
+}
+
+/* 滚动条的滑轨背景颜色 */
+
+.scroll_bar::-webkit-scrollbar-thumb {
+  background-color: #042444;
+  border-radius: 5px;
+}
+
+/* 滑块颜色 */
+
+.scroll_bar1 {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.scroll_bar1::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll_bar1::-webkit-scrollbar-track {
+  background: hsla(0, 0%, 100%, 0.2);
+  border-radius: 5px;
+}
+
+/* 滚动条的滑轨背景颜色 */
+
+.scroll_bar1::-webkit-scrollbar-thumb {
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 5px;
+}
+
+
+.bg_c062853 {
+  background: $bg_block_t
+}
+
+//自定义提示气泡样式
+.toolTip {
+  position: absolute;
+  padding: 0 20px;
+  border-radius: 4px;
+
+  height: 35px;
+  line-height: 35px;
+}
+
+.toolTip_b {
+  display: inline-block;
+  position: absolute;
+  margin-left: 20px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+
+
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// UB登录注册输入框
+.label-inputbox {
+  position: relative;
+  .input-label {
+    position: absolute;
+    color: #9da9b7;
+    font-size: 14px;
+    top: 10px;
+    left: 15px;
+    z-index: 1;
+  }
+  .input-focuslabel {
+    position: absolute;
+    color: #9da9b7;
+    font-size: 12px;
+    top: 0px;
+    left: 15px;
+    z-index: 1;
+  }
+  .el-input__inner {
+    height: 55px;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #171313;
+  }
+}
+
+.el-input-group__append{
+  background: transparent!important;
+}

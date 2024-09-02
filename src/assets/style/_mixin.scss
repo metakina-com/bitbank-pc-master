@@ -1,0 +1,146 @@
+// 交易颜色
+$red:#ff4767;
+$green:#4cc095;
+
+$bg_block_t:#062853;
+
+$b1efff:#b1efff;
+$c8fb6cc:#8fb6cc;
+$c00a2ff:#00a2ff;
+$blue:#00a2ff;
+
+$main: #051325;
+$second:#051933;
+// $second:#1a2a3e;
+$fff:#f2f3f8;
+
+
+
+// 颜色
+.red{
+  color: $red;
+}
+.green{
+  color: $green;
+}
+
+
+// 背景色
+
+// 白色主题背景色
+.bg_main_fff{
+  background-color: $fff;
+}
+
+.bg_green{
+  background: $green;
+}
+.bg_red{
+  background: $red;
+}
+.bg_main{
+  background:$main;
+}
+.bg_second,.bg1{
+  background:$second
+}
+
+.flex_bet{
+  display: flex;
+  justify-content: space-between;
+}
+.flex{
+  display: flex;
+}
+.flex1{
+   flex: 1;
+}
+.flex-column{
+  flex-direction: column;
+}
+.align-center{
+  align-items: center;
+}
+
+.bor{
+  border: 1px solid #ededed;
+}
+
+// 布局
+.v_center{
+  text-align: center;
+}
+.v_right{
+  text-align: right;
+}
+.v_left{
+  text-align: left;
+}
+
+// 定位
+.re{
+  position: relative;
+}
+.ab{
+  position: absolute;
+}
+.zindex1{
+  z-index: 1;
+}
+.zindex2{
+  z-index: 2;
+}
+.zindex3{
+  z-index: 3;
+}
+.overflow{
+  overflow: auto;
+}
+
+/*修改滚动条样式*/
+.gundong::-webkit-scrollbar{
+  width:4px;
+  height:10px;
+  /**/
+}
+.gundong::-webkit-scrollbar-track{
+  background: rgb(55, 55, 55);
+  border-radius:2px;
+}
+.gundong::-webkit-scrollbar-thumb{
+  background: #606060;
+  border-radius:10px;
+}
+// .gundong::-webkit-scrollbar-thumb:hover{
+//   background: #333;
+// }
+.gundong::-webkit-scrollbar-corner{
+  background: #179a16;
+}
+
+// .gundong1::-webkit-scrollbar{
+//   width:4px;
+//   height:10px;
+//   /**/
+// }
+// .gundong1::-webkit-scrollbar-track{
+//   background: rgb(55, 55, 55);
+//   border-radius:2px;
+// }
+// .gundong1::-webkit-scrollbar-thumb{
+//   background: #606060;
+//   border-radius:10px;
+// }
+// // .gundong::-webkit-scrollbar-thumb:hover{
+// //   background: #333;
+// // }
+// .gundong1::-webkit-scrollbar-corner{
+//   background: #179a16;
+// }
+
+
+
+@mixin scroll($width, $col1,$col2){
+	
+      
+}
